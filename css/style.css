@@ -834,24 +834,9 @@ a.make-order:focus, a.make-order:hover {
 	margin-bottom: 10px;
 }
 
-/*изменения:*/
-
-.advantages-img {
-	height: 240px;
-	overflow: hidden;
-	margin: 20px 0;
-	position: relative;
-}
-
 .advantages img {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	margin: auto;
+	margin: 20px 0;
 }
-/*конец изменения*/
 
 .advantages h3 {
 	margin: 0 0 12px;
@@ -962,13 +947,6 @@ a.btn-vk-more_reviews:after {
 	line-height: 23px;
 	margin-top: 36px;
 }
-/*изменения:*/
-@media screen and (max-width: 1199px) {
-	.advantages-img {
-		height: 195px;
-	}
-}
-/*конец изменения*/
 
 @media screen and (max-width: 991px) {
 
@@ -980,16 +958,11 @@ a.btn-vk-more_reviews:after {
 	.advantages h2 {
 	    font-size: 30px;
 	}
-/*изменения:*/
-	.advantages-img {
-		height: 310px;
-		margin: 20px 0 8px;
-	}
-/* 
-и удалил .advantages img {
+
+	.advantages img {
 	    margin: 20px 0 8px;
-	}*/
-/* конец изменения*/
+	}
+
 	.advantages h3 {
 	    margin: 0 0 7px;
 	}
@@ -1000,20 +973,8 @@ a.btn-vk-more_reviews:after {
 
 }
 
-@media screen and (max-width: 767px) {
-/*изменения:*/
-	.advantages-img {
-		height: 380px;
-	}
-
-	/* 
-	и удалил 
-	.advantages img {
-	    margin: 20px 0 8px;
-	   }
-	}*/
-/* конец изменения*/
-
+@media screen and (max-width: 768px) {
+	
 	.ad_rev-container h2 {
 		font-size: 24px;
 	}
@@ -1023,6 +984,10 @@ a.btn-vk-more_reviews:after {
 
 	.reviews h2 {
 		font-size: 26px;
+	}
+
+	.advantages img {
+	    margin: 20px 0 8px;
 	}
 
 	.advantages h3 {
@@ -1040,19 +1005,10 @@ a.btn-vk-more_reviews:after {
 		margin: 7px 20px 0 0;
 		font-size: 18px;
 	}
-/*изменения:*/
-	.advantages-img {
-		height: 300px;
-	}
-/*конец изменения*/
 }
 
 @media screen and (max-width: 480px) {
-/*изменения:*/
-	.advantages-img {
-		height: 270px;
-	}
-/*конец изменения*/
+
 	.advantages h3 {
 	    margin: 5px 0 7px;
 	}
@@ -1076,11 +1032,7 @@ a.btn-vk-more_reviews:after {
 }
 
 @media screen and (max-width: 440px) {
-/*изменения:*/
-	.advantages-img {
-		height: 250px;
-	}
-/*конец изменения*/
+
 	.advantages h2 {
 	    font-size: 30px;
 	    margin: 10px 0;
@@ -1092,14 +1044,6 @@ a.btn-vk-more_reviews:after {
 	    line-height: 18px;
     }
 
-}
-
-@media screen and (max-width: 360px) {
-/*изменения:*/
-	.advantages-img {
-		height: 220px;
-	}
-/*конец изменения*/
 }
 
 .feedback {
